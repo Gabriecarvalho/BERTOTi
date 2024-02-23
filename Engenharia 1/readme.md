@@ -6,3 +6,9 @@ Programação faz parte da engenharia de software, mas ela também incorpora o f
 
 <h2>Windows e linux</h2>
 <p>Windows é conhecido pela usabilidade e compatibilidade de software,mas pode ser mais custoso e susctível a malware.Linux oferece personalização,segurança e desempenho,geralmente a custo zero,mas pode ter a curva de aprendizado maior e desafios de compatibilidade com alguns programas.</p>
+
+<h2>Desenvolvimento rápido e extensibilidade</h2>
+<p>Se uma equipe optar por implementar rapidamente uma solução para atender a prazos apertados,isso pode resultar em um código mais complexo e dificil de extender no futuro.Por outro lado, se a equipe dedicar tempo extra para criar uma qrquitetura modular e extensivel, o desenvolvimento inicial pode levar mais tempo, mas futuras modificações e adições de funcionalidades serão mais suaves. </p>
+
+<h2></h2>
+<p></p>
