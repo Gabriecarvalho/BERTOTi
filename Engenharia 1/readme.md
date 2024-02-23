@@ -2,7 +2,7 @@
 
 Programação faz parte da engenharia de software, mas ela também incorpora o fator tempo, escala e decisões complexas com consequências significativas.A passagem de tempo junto com a escala são partes vitais dela,como saber seu prazo e o tamanho de seu projeto ao mesmo tempo que trade-offs sao igualmente importantes pois não ha linguagem ou sistema que só ha ganhos e sempre temos que nos planejar e escolher ferramentas que se adequem a situação problema.Modificações são uma parte importante da engenharia de software também pois um bom jeito de descrever ela é "programação integrada ao longo do tempo".
 
->3 Exemplos de trade-offs
+<h1>3 Exemplos de trade-offs</h1>
 
 <h2>Windows e linux</h2>
 <p>Windows é conhecido pela usabilidade e compatibilidade de software,mas pode ser mais custoso e susctível a malware.Linux oferece personalização,segurança e desempenho,geralmente a custo zero,mas pode ter a curva de aprendizado maior e desafios de compatibilidade com alguns programas.</p>
