@@ -1,25 +1,26 @@
-import java.util.ArrayList;
-import java.util.List;
+package observerpattern;
 
-public class Editor implements Subject {
-    private List<Observer> observers = new ArrayList<>();
+import java.io.File;
+import java.io.IOException;
 
-    public void addObserver(Observer observer) {
-        observers.add(observer);
+public class Editor {
+    public EventManager events;
+    private File file;
+
+    public Editor() {
+        this.events = new EventManager("open", "save");
     }
 
-    public void removeObserver(Observer observer) {
-        observers.remove(observer);
+    public void openFile(String filePath) {
+        this.file = new File(filePath);
+        events.notify("open", file);
     }
 
-    public void notifyObservers(String article) {
-        for (Observer observer : observers) {
-            observer.update(article);
+    public void saveFile() throws IOException {
+        if (this.file != null) {
+            events.notify("save", file);
+        } else {
+            throw new IOException("Nenhum arquivo aberto para salvar.");
         }
-    }
-
-    public void publishArticle(String article) {
-        System.out.println("Editor publicou: " + article);
-        notifyObservers(article);
     }
 }
